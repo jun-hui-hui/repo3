@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* 清除浮动 */
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+body {
+    font-family: Microsoft YaHei;
+    max-width: 7.5rem;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul li {
+    list-style: none;
+}
+
+p {
+    font-size: 0.24rem;
+    line-height: 0.35rem;
+    color: #666666;
+    align-items: center;
+    text-indent: 0.4rem;
+    letter-spacing: 0.02rem;
+}
+
+/* banner */
+
+.banner {
+    width: 7.5rem;
+    height: 4rem;
+    background: url(../img/zu\ 211.png) no-repeat center center;
+    background-size: 7.5rem 4rem;
+}
+
+/* 学校概况 */
+
+.xxgk {
+    padding: 0 0.35rem;
+    width: 6.8rem;
+    height: 9.82rem;
+    overflow: hidden;
+    background: url(../img/zu\ 212.png) no-repeat top center;
+    background-size: 7.5rem 9.82rem;
+}
+
+.xxgk>p {
+    margin-top: 1.39rem;
+}
+
+/* 学校特色 */
+
+.xxts {
+    overflow: hidden;
+    padding: 0 0.45rem;
+    width: 6.6rem;
+    height: 8.28rem;
+    background: url(../img/zu\ 213.png) no-repeat top center;
+    background-size: 7.5rem 8.28rem;
+}
+
+.xxts-text {
+    margin-top: 1.13rem;
+}
+
+/* 学院设置 */
+
+.xysz {
+    width: 7.5rem;
+    height: 4.12rem;
+    background: url(../img/zu\ 190.png) no-repeat top center;
+    background-size: 7.5rem 4.12rem;
+}
+
+.xysz-hd {
+    margin-bottom: 0.61rem;
+    display: flex;
+    justify-content: center;
+}
+
+.xysz-hd>img {
+    width: 3.3574rem;
+    height: 0.47rem;
+}
+
+/* 滑动切换图片 */
+  #lunbo .swiper-slide {
+    margin: 0 auto;
+    width: 4.55rem;
+    height: 2.625rem;
+  }
+
+.xysz-img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+.img-one {
+    background: url(../img/wei.png) no-repeat center;
+}
+
+.img-two {
+    background: url(../img/6bafac5f9ef18c1c00fb85a970420a2b.png) no-repeat center;
+}
+
+.img-three {
+    background: url(../img/VCG4188375241.png) no-repeat center;
+}
+.img-four {
+    background: url(../img/zu\ 200.png) no-repeat center;
+}
+.img-five {
+    background: url(../img/zu\ 199.png) no-repeat center;
+}
+
+.xysz-title {
+    flex: 1;
+    height: 0.64rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+    line-height: 0.64rem;
+    color: #333333;
+    background-color: rgba(255, 255, 255, .8);
+    text-align: center;
+}
+
+/* 关于伦敦 */
+
+.gyld {
+    padding: 0.25rem;
+    height: 11.13rem;
+    background: url(../img/zu\ 214.png) no-repeat top center;
+    background-size: 7.5rem 11.13rem;
+}
+
+.gyld-text {
+    margin-top: 1.11rem;
+}
+
+.gyld-text p {
+    font-size: 0.24rem;
+    line-height: 0.35rem;
+    color: #666666;
+    text-indent: 2em;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 3.45rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn img {
+    width: 1.87rem;
+    height: 0.68rem;
+}

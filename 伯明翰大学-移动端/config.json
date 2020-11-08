@@ -1,0 +1,12 @@
+{
+  "beforJS": [
+    "js/refreshrem.js",
+    "js/swiper.min.js"
+  ],
+  "css": [
+    "css/swiper.min.css",
+    "normalize.css",
+    "css/index.css"
+  ],
+  "afterJS": []
+}
